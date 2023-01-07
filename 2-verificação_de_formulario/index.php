@@ -9,6 +9,7 @@
     <title>Verificação de formulário</title>
 </head>
 <body>
+    <p> Sistema de verificação do preenchimento de requisitos de um formulário </p>
     <?php include('avisos.html'); ?>
     <form onsubmit="return verificar()"> 
         <input type="text" id="nome" placeholder="Nome" >
