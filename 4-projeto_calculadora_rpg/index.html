@@ -9,17 +9,14 @@
 </head>
 <body>
     <form method="POST" action="calculadora.php"> 
-        <p> Terreno (0 sendo uma planíce e 10 sendo o topo de uma montanha) <br>
-        </p><input type="text" name="terreno"> <br> <br>
-        <p> Capacidade de ataque do atacante </p>  
-        <input type="text" name="atq_atq"> <br> <br>
-        <p> Capacidade de defesa do atacante</p> 
-        <input type="text" name="atq_def"> <br> <br> <br>
-        <p> Capacidade de contra-ataque do defensor </p> 
-        <input type="text" name="def_atq"> <br> <br>
-        <p> Capacidade de defesa do defensor </p> 
-        <input type="text" name="def_def"> <br> <br>
-        <input type="submit">
+        <p> Terreno/Custo de ataque (0 sendo uma planíce e 25 sendo o topo de uma montanha) <br>
+        </p><input type="text" id="terreno"> <br> <br>
+        <p> Número de tropas do atacante</p>  
+        <input type="text" id="atq"> <br> <br>
+        <p> Número de tropas do defensor </p> 
+        <input type="text" id="def"> <br> <br> <br>
+        <button type="button" onclick="calculo()"> Testar </button>
     </form>
+    <p id="resultado"> </p>
 </body>
 </html>
