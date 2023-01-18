@@ -1,0 +1,14 @@
+body{
+    background-color: rgb(220, 80, 85);
+}
+
+.form{
+    background: rgb(211, 223, 177);
+    width: 70vh;
+    height: 50vh;
+    position: absolute;
+    top: 20%;
+    left: 37%;
+    margin: -50px 0 0 -50px;
+    align-content: center;
+}

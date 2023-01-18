@@ -4,19 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css"/>
     <script type="text/javascript" src="script.js"> </script>
     <title>Calculadora RPG</title>
 </head>
 <body>
+    <div class="form">
     <form method="POST" action="calculadora.php"> 
         <p> Terreno/Custo de ataque (0 sendo uma planíce e 25 sendo o topo de uma montanha) <br>
-        </p><input type="text" id="terreno"> <br> <br>
+        </p><input type="text" id="terreno"> 
         <p> Número de tropas do atacante</p>  
-        <input type="text" id="atq"> <br> <br>
+        <input type="text" id="atq"> 
         <p> Número de tropas do defensor </p> 
-        <input type="text" id="def"> <br> <br> <br>
+        <input type="text" id="def"> <br>
         <button type="button" onclick="calculo()"> Testar </button>
     </form>
+    </div>
     <p id="resultado"> </p>
 </body>
 </html>
